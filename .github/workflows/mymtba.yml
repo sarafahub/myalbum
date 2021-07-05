@@ -34,6 +34,6 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ mymtba.surge.sh --token ${{secrets.MTBA_KEY}}
+        run: surge ./ mymtba.surge.sh --token ${{secrets.MY_ALBUM}}
           echo Add other actions to build,
           echo test, and deploy your project.
