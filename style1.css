@@ -106,7 +106,13 @@ section .btn2{
     content: '';
     animation: changetext 10s infinite linear;
 }
-
+@media screen and (max-width: 600px) {
+    nav .logo {
+      
+      width: 100%;
+      text-align: center;
+    }
+  }
 @keyframes changetext{
     0%{content: "President";}
 }
